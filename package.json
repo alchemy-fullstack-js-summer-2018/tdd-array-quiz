@@ -9,7 +9,6 @@
     "test:mocha": "mocha",
     "start": "npm run test:mocha -- -w",
     "pretest": "eslint ."
-
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
   "devDependencies": {
     "eslint": "^5.1.0",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "travis": "^0.1.1"
   }
 }
