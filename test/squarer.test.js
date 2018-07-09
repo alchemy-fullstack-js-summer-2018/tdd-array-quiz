@@ -3,9 +3,14 @@ const squarer = require('../lib/squarer');
 
 describe('squarer', () => {
 
-    const input = [2, 3, 9, 12, 8, 5, 7];
-
-    it('squares odd numbers greater than 3', () => {
+    it('returns squares greater than 24 of odd numbers', () => {
+        const input = [2, 3, 9, 12, 8, 5, 7];
         assert.deepEqual(squarer(input), [81, 25, 49]);
     });
+    
+    it('handles negative numbers in input', () => {
+        const input = [-2, -3, -9, -12, -8, -5, -7];
+        assert.deepEqual(squarer(input), [81, 25, 49]);
+    });
+    
 });
