@@ -4,8 +4,11 @@
   "description": "**Use standard lab submission procedure that you have used for past 9 weeks: fork, clone, work, push, PR!**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pretest": "eslint ."
+   "pretest": "eslint .",
+    "test:run": "mocha",
+    "test": "npm run test:run",
+    "test:dev": "npm run test:run -- -w",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
