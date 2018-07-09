@@ -1,0 +1,28 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure that you have used for past 9 weeks: fork, clone, work, push, PR!**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "pretest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carriecarter/tdd-array-quiz.git"
+  },
+  "author": "Carrie Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carriecarter/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/carriecarter/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0"
+  }
+}
