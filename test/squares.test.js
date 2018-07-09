@@ -4,6 +4,8 @@ const Squares = require('../lib/Squares');
 
 describe('squares', () => {
 
+    const numOrigin = [2, 3, 9, 12, 8, 5, 7];
+
     it('returns only the odd numbers in the array', () => {
 
     });
