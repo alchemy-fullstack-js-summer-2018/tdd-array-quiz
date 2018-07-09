@@ -18,4 +18,9 @@ describe('Array function', () => {
         const result = oddSquare(numbers);
         assert.deepEqual(result, [81, 25, 49]);
     });
+
+    it('checks whether greater than equal to 5 first', () => {
+        const result = oddSquare(numbers);
+        assert.deepEqual(result, [81, 25, 49]);
+    });
 });
