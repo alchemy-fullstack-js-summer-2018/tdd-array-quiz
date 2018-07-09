@@ -7,7 +7,7 @@ describe('array methods', () => {
 
     it('returns an array', () => {
         const newNum = arrayMethod(numbers, n => n);
-        assert.equal(newNum, numbers);
+        assert.deepEqual(newNum, numbers);
     });
 
     it.skip('returns a new array that contains the square of all the odd input, but only those squares that are greater than 24', () => {
