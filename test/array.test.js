@@ -9,8 +9,10 @@ describe('array method', () => {
             // const squared = numbers;
             function oddNums(num) {
                 return num === (num % 2 === 0);
+
                 
             }
+            assert.deepEqual([81, 25, 49]);
         });    
     });
 });
