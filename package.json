@@ -1,0 +1,23 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure that you have used for past 9 weeks: fork, clone, work, push, PR!**",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "lint": "eslint .",
+    "test": "npm run test:mocha",
+    "test:mocha": "mocha",
+    "start": "npm run test:mocha -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rehmsy/tdd-array-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rehmsy/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/Rehmsy/tdd-array-quiz#readme"
+}
