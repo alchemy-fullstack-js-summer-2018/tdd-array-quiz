@@ -1,0 +1,27 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure that you have used for past 9 weeks: fork, clone, work, push, PR!**",
+  "main": "index.js",
+  "scripts": {
+   "pretest": "eslint .",
+    "test:run": "mocha",
+    "test": "npm run test:run",
+    "test:dev": "npm run test:run -- -w",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markalope/tdd-array-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markalope/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/Markalope/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0"
+  }
+}
