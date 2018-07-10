@@ -1,0 +1,26 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure that you have used for past 9 weeks: fork, clone, work, push, PR!**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha",
+    "test:mocha": "mocha",
+    "start": "npm run test:mocha -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinhood182/tdd-array-quiz.git"
+  },
+  "author": "Robyn Navarro <rnavarro182@gmail.com> (https://github.com/robinhood182)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinhood182/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/robinhood182/tdd-array-quiz#readme"
+}
