@@ -9,7 +9,7 @@ Write a **tested** (mocha unit tested) library function (a `function` exported f
 that takes an array of words (strings, you can assume valid input) and returns a new array that:
 
 * Has removed any words than contain the letter `Y` or `y`.
-* Has modified the original word to be a phrase of the format: "Is it <word>?"
+* Has modified the original word to be a phrase of the format: "Is it &lt;word&gt;?"
 
 Test Case:
 
