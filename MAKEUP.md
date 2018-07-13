@@ -1,7 +1,11 @@
 # Quiz: TDD and Functional Array Methods
 
 * Use **standard lab submission procedure** that you have used for past 9 weeks: fork, clone, work, push, PR!
-* If retaking, make sure to _use a different branch_ that you used on the first quiz.
+* If retaking, make sure to _use a different branch_ that you used on the first quiz. Start by making a new branch off of master:
+```sh
+> git checkout master
+> git checkout -b makeup
+```
 
 ## Instructions: "Don't Ask Why"
 
